@@ -14,7 +14,7 @@ public class MyReqController {
     PersonaRepo  personaRepo;
 
     @RequestMapping("/")
-    public String raiz(int id){
+    public String raiz(){
         return "Probar con url /nombre/1, /persona/3, /h2-console";
     }
 
